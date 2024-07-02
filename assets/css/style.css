@@ -1,26 +1,158 @@
-body{
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
 }
 
-.logo {
-    height: 30px;
+#viajeschile {
+    font-family: 'Righteous', cursive;
 }
 
-#viajeschile{  
-    font-family: Righteous, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:larger;
+.navbar-brand img {
+    transition: transform 0.3s ease;
 }
 
-.container{
-    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-text-align: justify;
+.navbar-brand img:hover {
+    transform: scale(1.1);
 }
 
-.col-12 col-md-4 {
-    font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
 }
 
-#quienessomos{
-    font-family: Righteous, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+.section-container {
+    background-color: #f9f9f9;
+    padding: 48px 0;
+}
+
+.section-container h2 {
+    margin-bottom: 32px;
+    color: #333;
+}
+
+.section-container .icon-bg {
+    background-color: #28a745;
     padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.section-container p {
+    text-align: justify;
+}
+
+.section-container img {
+    width: 100%;
+    height: 100px; /* Puedes ajustar la altura según tus necesidades */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+    .section-container img {
+        height: 250px;
+    }
+}
+
+
+
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: 300;
+}
+
+#destacados h2 {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+    margin-bottom: 24px; 
+}
+
+#destacados {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+#destacados .h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#destacados .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+#destacados .card:hover {
+    transform: translateY(-5px);
+}
+
+#destacados .card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+#destacados .card-title {
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#destacados .card-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#destacados .btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 150px;
+}
+
+
+@media (max-width: 767px) {
+    #destacados .card-img-top {
+        height: 250px; 
+    }
+}
+
+#destacados .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#destacados .card-body .btn {
+    margin-top: auto;
+}
+
+#formulario .h2{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 600;
+
+}
+
+
+
+
+.social-icons a {
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #adb5bd;
 }

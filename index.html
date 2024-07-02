@@ -6,36 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Viajes por Chile, conoce diferentes lugares delñ país">
+    <!--meta-->
+    <meta name="description" content="Viajes por Chile, conoce diferentes lugares del país">
     <meta name="keywords" content="viajes, turismo, Chile, lugares">
-
-
-    <!-- Bootstrap -->
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--favicon-->
-
     <link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png">
-    <!--Fontawesome-->
+    <!--font awesome-->
     <script src="https://kit.fontawesome.com/c431aca6a8.js" crossorigin="anonymous"></script>
-
-    <!--Google fonts-->
+    <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap"
         rel="stylesheet">
-
+    <!--css-->
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <header id="inicio">
-
-        <!--navbar-->
-
-
+        <!-- navbar -->
         <nav class="navbar sticky-top navbar-expand-lg bg-success navbar-dark p-2 text-white">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -49,20 +42,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active p-3" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link p-3" href="#">Quiénes somos</a>
-                        <a class="nav-link p-3" href="#">Destacados</a>
-                        <a class="nav-link p-3" href="#">Contacto</a>
+                        <a class="nav-link active p-3" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link p-3" href="#quienessomos">Quiénes somos</a>
+                        <a class="nav-link p-3" href="#destacados">Destacados</a>
+                        <a class="nav-link p-3" href="#contacto">Contacto</a>
                     </div>
                 </div>
             </div>
         </nav>
-
-        <!--Fin navbar-->
-
-        <!-- carrusel-->
-
-        <div id="carouselExampleIndicators" class="carousel slide data-bs-ride=carousel z-0">
+        <!-- Fin navbar -->
+        <!-- carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -74,15 +64,15 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/carousel1.jpg" class="d-block w-100 h-auto"
-                        alt="Vicuñas en el desierto de Atacama" />
+                        alt="Vicuñas en el desierto de Atacama">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/img/carousel2.jpg" class="d-block w-100 h-auto"
-                        alt="Puesta de sol en Isla de Pascua" />
+                        alt="Puesta de sol en Isla de Pascua">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/img/carousel3.jpg" class="d-block w-100 h-auto"
-                        alt="Pingüinos magallánicos en la Isla Magdalena" />
+                        alt="Pingüinos magallánicos en la Isla Magdalena">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -93,37 +83,32 @@
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">siguiente</span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
-        <!--Fin carrusel-->
+        <!-- Fin carrusel -->
     </header>
-
-    <!--Quiénes somos-->
-
+    <!-- Quiénes somos -->
     <section class="container">
-  
-        <h2 id="quienessomos" class="text-center m-auto pb-md-0 pb-3">¿QUIÉNES SOMOS?</h2>
-
+        <h2 id="quienessomos" class="text-center m-auto pt-5 pb-md-0 pb-3">¿QUIÉNES SOMOS?</h2>
         <hr class="d-none d-md-block">
         <div class="row py-3">
+            <!-- Columna 1 -->
             <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-12 bg-success text-center p-1">
                         <i class="fa-solid fa-plane fa-2x" aria-hidden="true"></i>
                     </div>
                     <div class="col-12 pt-2">
+                        <img src="./assets/img/aboutbici.jpg" class="img-fluid img-same-size mb-2" alt="fundadores">
                         <p>Cat ipsum dolor sit amet, blow up sofa in 3 seconds. Hunt by meowing loudly at 5am next to
                             human slave food dispenser flee in terror at cucumber discovered on floor, yet chew iPad
                             power cord twitch tail in permanent irritation find something else more interesting. Hit you
-                            unexpectedly rub face on owner fat baby cat best buddy little guy for steal raw zucchini off
-                            kitchen counter relentlessly pursues moth, bite nose of your human. Scamper hiss at vacuum
-                            cleaner cough furball into food bowl then scratch owner for a new one yet i cry and cry and
-                            cry unless you pet me, and then maybe i cry just for fun. Rub butt on table Gate keepers of
-                            hell for mess up all the toilet paper.</p>
+                            unexpectedly rub face on owner fat baby cat best buddy.</p>
                     </div>
                 </div>
             </div>
+            <!-- Columna 2 -->
             <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-12 bg-success text-center p-1 d-md-none d-block">
@@ -133,81 +118,158 @@
                         <p>Twitch tail in permanent irritation lay on arms while you're using the keyboard go into a
                             room to decide you didn't want to be in there anyway so always ensure to lay down in such a
                             manner that tail can lightly brush human's nose for groom forever, stretch tongue and leave
-                            it slightly out, blep. Steal raw zucchini off kitchen counter headbutt owner's knee and hide
-                            head under blanket so no one can see or why dog in house? i'm the sole ruler of this home
-                            and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human
-                            freakout. Run at 3am. Hunt by meowing loudly at 5am next to human slave food dispenser. If
-                            it fits, i sits scratch, spend all night ensuring people don't sleep sleep all day. Pushed
-                            the mug off the table. </p>
+                            it slightly out, blep.</p>
                     </div>
+                    <img src="./assets/img/aboutplanificacion.jpg" class="img-fluid img-same-size mb-2" alt="Chiloé">
                     <div class="col-12 bg-success text-center p-1 d-none d-md-block">
                         <i class="fa-solid fa-mountain fa-2x" aria-hidden="true"></i>
-
                     </div>
                 </div>
             </div>
+            <!-- Columna 3 -->
             <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-12 text-center p-1 bg-success">
                         <i class="fa-solid fa-route fa-2x" aria-hidden="true"></i>
                     </div>
                     <div class="col-12 pt-2">
+                        <img src="./assets/img/aboutrutas.jpg" class="img-fluid img-same-size mb-2"
+                            alt="Ruta Panamericana">
                         <p>Kitty time poop on the floor, break a planter, sprint, eat own hair, vomit hair, hiss, chirp
                             at birds, eat a squirrel, hide from fireworks, lick toe beans, attack christmas tree.
                             Proudly present butt to human stand in doorway, unwilling to chose whether to stay in or go
-                            out, eat owner's food but stuff and things. Nap all day meow go back to sleep owner brings
-                            food and water tries to pet on head, so scratch get sprayed by water because bad cat meow
-                            meow. I like to spend my days sleeping and eating fishes that my human fished for me we live
-                            on a luxurious yacht, sailing proudly under the sun, i like to walk on the deck, watching
-                            the horizon, dreaming of a good bowl of milk licks paws meowwww, or mew or walk on car
-                            leaving trail of paw prints on hood and windshield. </p>
+                            out, eat owner's food but stuff and things.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Fin (de) Quiénes somos -->
 
-    <!--Fin (de) Quiénes somos-->
-
-    <!---Destacados-->
-
-    <!--Formulario Contacto-->
-    <div class="mb-3 px-4 py-4">
-        <h4 class="text-white py-2 text-center" id="viajeschile">CONTACTO</h4>
-        <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Nombre">
-        <input type="email" class="form-control mb-3" id="exampleFormControlInput2" placeholder="Correo Electrónico">
-        <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="3"
-            placeholder="Realiza tu cotización o escríbenos tus dudas"></textarea>
-        <div class="text-center">
-            <button type="submit" class="btn btn-light text-dark" id="enviarMensaje" data-bs-toggle="tooltip" data-bs-placement="top" title="Presiona para enviar">Enviar</button>
+    <!-- Destacados -->
+    <section id="destacados" class="container">
+        <h2 class="text-center m-auto pb-md-0 pb-3">DESTACADOS</h2>
+        <hr class="d-none d-md-block">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 py-3">
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="./assets/img/card1.jpg" class="card-img-top img-fluid" alt="destino 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Meow Meow</h5>
+                        <p class="card-text text-justify">Scamper hiss at vacuum
+                            cleaner cough furball into food bowl then scratch owner for a new one yet i cry and cry and
+                            cry unless you pet me, and then maybe i cry just for fun. Rub butt on table Gate keepers of
+                            hell for mess up all the toilet paper</p>
+                        <div class="text-center">
+                            <button id="reservar" class="btn btn-outline-success" onclick="reservar()"
+                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Reservar viaje">
+                                Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="./assets/img/card2.jpg" class="card-img-top img-fluid" alt="destino 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Meow Meow</h5>
+                        <p class="card-text text-justify">Scamper hiss at vacuum
+                            cleaner cough furball into food bowl then scratch owner for a new one yet i cry and cry and
+                            cry unless you pet me, and then maybe i cry just for fun. Rub butt on table Gate keepers of
+                            hell for mess up all the toilet paper</p>
+                        <div class="text-center">
+                            <button id="reservar" class="btn btn-outline-success" onclick="reservar()"
+                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Reservar viaje">
+                                Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="./assets/img/card3.jpg" class="card-img-top img-fluid" alt="destino 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Meow Meow</h5>
+                        <p class="card-text text-justify">Scamper hiss at vacuum
+                            cleaner cough furball into food bowl then scratch owner for a new one yet i cry and cry and
+                            cry unless you pet me, and then maybe i cry just for fun. Rub butt on table Gate keepers of
+                            hell for mess up all the toilet paper</p>
+                        <div class="text-center">
+                            <button id="reservar" class="btn btn-outline-success" onclick="reservar()"
+                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Reservar viaje">
+                                Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="./assets/img/card4.jpg" class="card-img-top img-fluid" alt="destino 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Meow Meow</h5>
+                        <p class="card-text text-justify">Scamper hiss at vacuum
+                            cleaner cough furball into food bowl then scratch owner for a new one yet i cry and cry and
+                            cry unless you pet me, and then maybe i cry just for fun. Rub butt on table Gate keepers of
+                            hell for mess up all the toilet paper</p>
+                        <div class="text-center">
+                            <button id="reservar" class="btn btn-outline-success" onclick="reservar()"
+                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip" data-bs-title="Reservar viaje">
+                                Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin destacados -->
+    <!-- Contacto -->
+    <div id="formulario" class="mb-3 px-4 py-4">
+        <h2 class="text-center m-auto pb-md-0 pb-3">CONTÁCTANOS</h2>
+        <div class="container py-4">
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
         </div>
     </div>
-    <!--Fin Formulario Contacto-->
+    <!-- Fin de contacto -->
+    <!-- Footer -->
 
-    <!-- footer-->
- 
     <footer class="bg-success p-3 mt-3">
-        <div class="container d-flex">
-            <h5 id="viajeschile" class="text-white">Viajes Chile© 2024</h5>
+        <div class="container d-flex text-white">
+            <h5 id="viajeschile" >VIAJES CHILE</h5>
             <div class="ms-auto">
-                <a href="https://github.com" target="_blank" aria-label="GitHub">
+                <a href="https://github.com/" target="_blank">
                     <i class="fa-brands fa-github-square fa-2x text-white"></i>
                 </a>
-                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/" target="_blank">
                     <i class="fa-brands fa-linkedin fa-2x text-white"></i>
                 </a>
-                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <a href="https://twitter.com/" target="_blank">
                     <i class="fa-brands fa-twitter-square fa-2x text-white"></i>
                 </a>
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <a href="https://www.facebook.com/" target="_blank">
                     <i class="fa-brands fa-facebook-square fa-2x text-white"></i>
                 </a>
             </div>
         </div>
     </footer>
-
-    <!--fin footer-->
-
+    <!-- Fin footer -->
 
 
     <!--Jquery-->
